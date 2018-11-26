@@ -11,7 +11,7 @@
     <properties>
         <java.version>1.7</java.version>
         <github.global.server>github</github.global.server>
-        <github.maven-plugin>0.10</github.maven-plugin>
+        <github.maven-plugin>0.12</github.maven-plugin>
     </properties>
 
     <distributionManagement>
@@ -21,7 +21,6 @@
             <url>file://${project.build.directory}/mvn-repo</url>
         </repository>
     </distributionManagement>
-
 
     <build>
         <plugins>
@@ -42,7 +41,7 @@
             <plugin>
                 <groupId>com.github.github</groupId>
                 <artifactId>site-maven-plugin</artifactId>
-                <version>${github.maven-plugin}</version>
+                <version>0.12</version>
                 <configuration>
                     <message>Maven artifacts for ${project.version}</message>
                     <noJekyll>true</noJekyll>
@@ -63,4 +62,4 @@
             </plugin>
         </plugins>
     </build>
-</project>
+     </project>
