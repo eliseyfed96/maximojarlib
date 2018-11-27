@@ -62,10 +62,4 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>file.mxlibrary</id>
-            <url>file://${project.basedir}/src/main/java/maximo/lib</url>
-        </repository>
-    </repositories>
 </project>
